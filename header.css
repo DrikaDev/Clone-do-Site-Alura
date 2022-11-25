@@ -1,0 +1,45 @@
+header{
+    border-top: solid 5px #1472e5;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 5rem;
+    margin: 1rem;
+}
+
+.header_right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_right p{
+    color: #fff;
+    font-size: .8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header_right button{
+    background-color: #a3ffbf;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: bold;
+    height: 2.7em;
+    margin: 1rem;
+    text-transform: uppercase;
+    width: 10rem;
+}

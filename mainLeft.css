@@ -1,0 +1,140 @@
+.left{
+    border: 4px solid palevioletred;
+    width: 48%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.left_façaLogin{
+    background: linear-gradient(to right, #0b3976, #072348);
+    height: 30rem;
+    width: 85%;
+    border: 2px solid #1472e5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.left_façaLogin_info{
+    background: linear-gradient(to right, #0b3976, #072348);
+    height: 30rem;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.left_façaLogin_info_title{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.left_façaLogin_info_title h1{
+    background: linear-gradient(to right, #0b3976, #072348);
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+.left_façaLogin_info_title p{
+    background: linear-gradient(to right, #0b3976, #072348);
+    text-align: center;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.left_façaLogin_info_inputs{
+    background: linear-gradient(to right, #0b3976, #072348);
+    margin-top: .5rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left_façaLogin_info_inputs_email h5{
+    background: linear-gradient(to right, #0b3976, #072348);
+    font-size: 1rem;
+    color: #fff;
+}
+
+.left_façaLogin_info_inputs_email input{
+    height: 3rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.left_façaLogin_info_inputs_password h5{
+    background: linear-gradient(to right, #0b3976, #072348);
+    font-size: 1rem;
+    color: #fff;
+}
+
+.left_façaLogin_info_inputs_password input{
+    height: 3rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.entrar{
+    cursor: pointer;
+    height: 3rem;
+    width: 100%;
+    background-color: #a3ffbf;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.left_façaLogin_info_socialMediaButtons{
+    background: linear-gradient(to right, #0b3976, #072348);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_façaLogin_info_socialMediaButtons button{
+    color: #fff;
+    background: linear-gradient(to right, #0b3976, #072348);
+}
+
+.left_façaLogin_info_socialMediaButtons_facebook{
+    border: 2px solid #1472e5;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 49%;
+}
+
+.left_façaLogin_info_socialMediaButtons_google{
+    border: 2px solid red;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 49%;
+}
+
+.left_façaLogin_info_forgotPassword{
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, #0b3976, #072348);
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+}

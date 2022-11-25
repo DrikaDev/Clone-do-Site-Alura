@@ -1,0 +1,15 @@
+.right{
+    border: solid greenyellow;
+    width: 50%;
+}
+
+.right_title{
+    border: solid white;
+    color: #fff;
+    margin: 2rem;
+}
+
+.right_title h1{
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
