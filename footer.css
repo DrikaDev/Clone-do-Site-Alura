@@ -1,0 +1,79 @@
+footer{
+    width: 95%;
+    height: 22vh;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-top: 2px solid #fff;
+}
+
+.footer{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_Alura img{
+    cursor: pointer;
+    margin-left: 1.5rem;
+    width: 4.5rem;
+}
+
+.footer_info{
+    color: #fff;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+    width: 20%;
+    height: 7rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_blog {
+    color: #fff;
+    cursor: pointer;
+    font-size: .7rem;
+    font-weight: 100;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.footer_follow-us{
+    width: 20%;
+}
+
+.footer_follow-us p{
+    color: #fff;
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.footer_follow-us img{
+    width: 2rem;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 1px 2px 1px 2px;
+    margin-right: .2rem;
+}
+
+.footer_apps{
+    color: #fff;
+    width: 10%;
+}
+
+.footer_apps img{
+    width: 2rem;
+    background-color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 4px;
+    margin-right: .2rem;
+}

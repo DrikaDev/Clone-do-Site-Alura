@@ -2,13 +2,19 @@ main{
     width: 100%;
     height: 140vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 main section{
-    margin-top: 3rem;
     width: 100%;
-    height: 120vh;
+    height: 115vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.blu_box{
+    background-color: #093366;
+    width: 100%;
+    height: 10rem;
 }

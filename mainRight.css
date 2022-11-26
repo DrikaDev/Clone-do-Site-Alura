@@ -1,15 +1,207 @@
 .right{
-    border: solid greenyellow;
-    width: 50%;
-}
-
-.right_title{
-    border: solid white;
-    color: #fff;
+    width: 55%;
+    height: 95vh;
     margin: 2rem;
 }
 
+.right_title{
+    width: 100%;
+    height: 4rem;
+}
+
 .right_title h1{
-    font-size: 1.8rem;
-    font-weight: bolder;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.right_title p{
+    font-size: .8rem;
+    color: #fff;
+}
+
+.right_cardList{
+    height: 86vh;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right_cardList_programacao, 
+.right_cardList_front-end, 
+.right_cardList_data-science,
+.right_cardList_devops,
+.right_cardList_ux-design,
+.right_cardList_mobile,
+.right_cardList_inovacao-gestao{
+    border: 2px solid #1472e5;
+    border-radius: 10px;
+    height: 12rem;
+    width: 12rem;
+}
+
+.right_cardList_programacao_title,
+.right_cardList_front-end_title,
+.right_cardList_data-science_title,
+.right_cardList_devops_title,
+.right_cardList_ux-design_title,
+.right_cardList_mobile_title,
+.right_cardList_inovacao-gestao_title{
+    margin: 1rem;
+}
+
+.right_cardList_programacao_title img,
+.right_cardList_front-end_title img,
+.right_cardList_data-science_title img,
+.right_cardList_devops_title img,
+.right_cardList_ux-design_title img,
+.right_cardList_mobile_title img,
+.right_cardList_inovacao-gestao_title img{
+    width: 3rem;
+    object-fit: contain;
+}
+
+.right_cardList_programacao_title h3{
+    color: #00c86f;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_front-end_title h3{
+    color: #6bd1ff;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_data-science_title h3{
+    color: #9cd33b;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_devops_title h3{
+    color: #f16165;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_ux-design_title h3{
+    color: #dc6ebe;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_mobile_title h3{
+    color: #ffba05;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_inovacao-gestao_title h3{
+    color: #ff8c2a;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.right_cardList_programacao_title h2{
+    color: #00c86f;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_front-end_title h2{
+    color: #6bd1ff;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_data-science_title h2{
+    color: #9cd33b;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_devops_title h2{
+    color: #f16165;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_ux-design_title h2{
+    color: #dc6ebe;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_mobile_title h2{
+    color: #ffba05;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_inovacao-gestao_title h2{
+    color: #ff8c2a;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.right_cardList_programacao_info,
+.right_cardList_front-end_info,
+.right_cardList_data-science_info,
+.right_cardList_devops_info,
+.right_cardList_ux-design_info,
+.right_cardList_mobile_info,
+.right_cardList_inovacao-gestao_info{
+    color: #fff;
+    margin: 1rem;
+    font-size: .8rem;
+}
+
+.right_card_fazer-matricula{
+    background-image: url(./img/background-matricule-se.svg);
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center;
+    
+    border-radius: 8px;
+    margin-top: 1rem;
+    width: 100%;
+    height: 25vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.right_card_fazer-matricula h2{
+    color: #fff;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.right_card_fazer-matricula h3{
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.right_card_fazer-matricula button{
+    background-color: #fff;
+    color: #1265cb;
+    border: none;
+    border-radius: 20px;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
 }
