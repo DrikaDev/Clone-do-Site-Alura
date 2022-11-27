@@ -1,22 +1,22 @@
 footer{
     width: 95%;
-    height: 22vh;
+    height: 25vh;
     margin: 0 auto;
-    margin-top: 1rem;
-    border-top: 2px solid #fff;
+    border-top: 1.5px solid #fff;
 }
 
 .footer{
-    margin-top: 1.5rem;
+    margin-top: 1.3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer_Alura img{
     cursor: pointer;
     margin-left: 1.5rem;
-    width: 4.5rem;
+    width: 5rem;
 }
 
 .footer_info{
@@ -27,7 +27,7 @@ footer{
     text-transform: uppercase;
     
     width: 20%;
-    height: 7rem;
+    height: 6rem;
 
     display: flex;
     flex-direction: column;
@@ -56,8 +56,10 @@ footer{
 }
 
 .footer_follow-us img{
-    width: 2rem;
+    width: 2.3rem;
+    object-fit: contain;
     background-color: #fff;
+    border: solid 3px #fff;
     border-radius: 50px;
     cursor: pointer;
     padding: 1px 2px 1px 2px;
@@ -67,6 +69,13 @@ footer{
 .footer_apps{
     color: #fff;
     width: 10%;
+}
+
+.footer_apps p{
+    color: #fff;
+    font-size: .7rem;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
 }
 
 .footer_apps img{

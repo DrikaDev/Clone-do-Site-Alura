@@ -1,5 +1,5 @@
 header{
-    border-top: solid 5px #1472e5;
+    border-top: solid 4px #1472e5;
     width: 100%;
 }
 
@@ -13,8 +13,8 @@ header{
 }
 
 .logo img{
-    width: 5rem;
-    margin: 1rem;
+    width: 4.5rem;
+    margin: 1rem 0 0 2rem;
 }
 
 .header_right{
@@ -38,8 +38,8 @@ header{
     cursor: pointer;
     font-size: .8rem;
     font-weight: bold;
-    height: 2.7em;
-    margin: 1rem;
+    height: 2.2rem;
+    margin: 1rem 2rem 1rem 1rem;
     text-transform: uppercase;
-    width: 10rem;
+    width: 9rem;
 }

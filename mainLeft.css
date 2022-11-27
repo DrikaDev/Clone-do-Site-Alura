@@ -1,20 +1,19 @@
 .left{
-    width: 45%;
+    width: 50%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
 }
 
 .left_façaLogin{
     background: linear-gradient(to right, #0b3976, #072348);
     height: 30rem;
-    width: 85%;
-    border: 2px solid #1472e5;
+    width: 28rem;
+    border: 1px solid #1472e5;
     border-radius: 5px;
+    margin-top: 2rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-top: 2rem;
+    
 }
 
 .left_façaLogin_info{
@@ -31,7 +30,8 @@
 
 .left_façaLogin_info_title h1{
     background: linear-gradient(to right, #0b3976, #072348);
-    font-size: 1.8rem;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
     color: #fff;
@@ -109,7 +109,7 @@
 }
 
 .left_façaLogin_info_socialMediaButtons_facebook{
-    border: 2px solid #1472e5;
+    border: 1px solid #1472e5;
     border-radius: 30px;
     cursor: pointer;
     font-size: .8rem;
@@ -119,7 +119,7 @@
 }
 
 .left_façaLogin_info_socialMediaButtons_google{
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 30px;
     cursor: pointer;
     font-size: .8rem;
