@@ -1,9 +1,16 @@
 header{
     border-top: solid 4px #1472e5;
     width: 100%;
+    /*  */
+    background-color: #051932;
+    /*  */
 }
 
 .header{
+    /*  */
+    max-width: 1200px;
+    margin: 0 auto; 
+    /*  */
     display: flex;
     flex-direction: row;
 }
