@@ -1,31 +1,31 @@
 .left{
     width: 50%;
-    height: 100vh;
+    /** height: 100vh; */
 }
 
 .left_façaLogin{
     background: linear-gradient(to right, #0b3976, #072348);
-    height: 30rem;
-    width: 28rem;
+    /** height: 30rem; */
+    /** width: 28rem; */
     border: 1px solid #1472e5;
     border-radius: 5px;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    /** margin-top: 2rem; */
+    /** margin-left: 2rem; */
+    padding: 1rem 3rem 3rem;
     display: flex;
     flex-direction: column;
-    
 }
 
 .left_façaLogin_info{
     background: linear-gradient(to right, #0b3976, #072348);
-    height: 30rem;
-    width: 85%;
-    margin: 0 auto;
+    /** height: 30rem; */
+    /** width: 85%; */
+    /** margin: 0 auto; */
 }
 
 .left_façaLogin_info_title{
     margin-top: 2rem;
-    width: 100%;
+    /** width: 100%; */
 }
 
 .left_façaLogin_info_title h1{
